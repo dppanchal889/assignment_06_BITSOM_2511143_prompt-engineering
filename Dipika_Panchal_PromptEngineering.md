@@ -1,1 +1,134 @@
+## Prompt Engineering Portfolio
+Name: Dipika Panchal
+Date: 05/06/2026
+LLM Used: ChatGPT
 
+
+## Part 1: Prompt Design & Iteration
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+### 1.1 Scenario A: Technical Explanation
+
+**Goal:** Explain a complex technical concept to a 10-year-old.
+
+**Topic Chosen:** Neural Networks
+
+#### Initial Prompt
+
+Explain neural networks.
+
+#### LLM Output
+
+Neural networks are computer systems inspired by the human brain. They use layers of connected nodes to process information, identify patterns, and make predictions based on data.
+
+#### Refined Prompt 1
+
+Explain neural networks to a 10-year-old using simple words.
+
+#### LLM Output
+
+A neural network is like a computer brain that learns from examples. For example, if you show it many pictures of cats and dogs, it starts learning the difference between them. It looks for patterns, like ears, eyes, shapes, and tails. After learning from many examples, it can guess whether a new picture is a cat or a dog.
+
+#### Refined Prompt 2
+
+Explain neural networks to a 10-year-old using a simple real-life example. Avoid difficult technical words and keep the explanation short.
+
+#### Final LLM Output
+
+A neural network is like teaching a child by showing examples. Imagine you show a child many pictures of cats and dogs. At first, the child may make mistakes. But after seeing many pictures, the child starts noticing things like ears, tails, and faces. A neural network learns in a similar way. It studies many examples, finds patterns, and then makes a guess.
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+### 1.1 Scenario B: Professional Email
+
+**Goal:** Draft an email declining a job offer politely while expressing continued interest in the company.
+
+#### Initial Prompt
+
+Write an email declining a job offer.
+
+#### LLM Output
+
+Dear Manager,
+
+Thank you for offering me the job. I appreciate the opportunity, but I have decided not to accept the offer. Thank you for your time and consideration.
+
+Sincerely,  
+Dipika Panchal
+
+#### Refined Prompt 1
+
+Write a polite professional email declining a job offer and thanking the company for the opportunity.
+
+#### LLM Output
+
+Subject: Thank You for the Opportunity
+
+Dear Manager,
+
+Thank you very much for offering me the position. I appreciate the time and effort your team spent during the interview process. After careful consideration, I have decided to decline the offer. I am grateful for the opportunity.
+
+Best regards,  
+Dipika panchal
+
+#### Refined Prompt 2
+
+Write a polite and professional email declining a job offer while expressing continued interest in future opportunities with the company. Keep the tone respectful and positive.
+
+#### Final LLM Output
+
+Subject: Thank You for the Offer
+
+Dear Manager,
+
+Thank you very much for offering me the position of Integration Developer at SAP. I sincerely appreciate the time, effort, and consideration you and your team gave me throughout the interview process.
+
+After careful thought, I have decided to decline the offer at this time. This was not an easy decision because I have a very positive impression of the company and the team.
+
+I would be happy to stay connected and would welcome the opportunity to be considered for future roles that may be a better fit.
+
+Thank you again for the opportunity.
+
+Sincerely,  
+Dipika Panchal
+
+---
+
+### 1.1 Scenario C: Creative Content
+
+**Goal:** Generate a creative marketing tagline for a new eco-friendly water bottle brand.
+
+#### Initial Prompt
+
+Create a tagline for an eco-friendly water bottle.
+
+#### LLM Output
+
+Stay hydrated and save the planet.
+
+#### Refined Prompt 1
+
+Create five creative taglines for an eco-friendly water bottle brand.
+
+#### LLM Output
+
+1. Sip Smart, Live Green.
+2. Hydrate the Future.
+3. Refill Today, Protect Tomorrow.
+4. Drink Clean, Think Green.
+5. Better Bottle, Better Planet.
+
+#### Refined Prompt 2
+
+Create five short and catchy marketing taglines for a premium eco-friendly water bottle brand aimed at young professionals.
+
+#### Final LLM Output
+
+1. Refill Your Future.
+2. Hydration with Purpose.
+3. Sip Better. Waste Less.
+4. Designed to Refill. Built to Last.
+5. Clean Water. Cleaner Planet.
+
+======================================================================================================================================
