@@ -1,7 +1,7 @@
 ## Prompt Engineering Portfolio
-Name: Dipika Panchal
-Date: 05/06/2026
-LLM Used: ChatGPT
+# Name: Dipika Panchal
+# Date: 05/06/2026
+# LLM Used: ChatGPT
 
 
 ## Part 1: Prompt Design & Iteration
@@ -132,3 +132,36 @@ Create five short and catchy marketing taglines for a premium eco-friendly water
 5. Clean Water. Cleaner Planet.
 
 ======================================================================================================================================
+
+
+### 1.2 Iteration Documentation
+
+#### Scenario A: Technical Explanation
+
+| Version | Prompt | What Changed | Why This Improved the Output |
+|----------|----------|----------|----------|
+| V1 | Explain neural networks. | N/A | N/A |
+| V2 | Explain neural networks to a 10-year-old using simple words. | Added target audience (10-year-old) and requested simple language. | The explanation became easier to understand and less technical. |
+| V3 | Explain neural networks to a 10-year-old using a simple real-life example. Avoid difficult technical words and keep the explanation short. | Added a real-life example, removed technical language, and specified a short explanation. | The output became more engaging, relatable, and suitable for a child. |
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+#### Scenario B: Professional Email
+
+| Version | Prompt | What Changed | Why This Improved the Output |
+|----------|----------|----------|----------|
+| V1 | Write an email declining a job offer. | N/A | N/A |
+| V2 | Write a polite professional email declining a job offer and thanking the company for the opportunity. | Added tone requirements (polite and professional) and requested gratitude. | The email sounded more professional and respectful. |
+| V3 | Write a polite and professional email declining a job offer while expressing continued interest in future opportunities with the company. Keep the tone respectful and positive. | Added continued interest in future opportunities and specified a positive tone. | The email maintained a good relationship with the company and sounded more thoughtful. |
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+#### Scenario C: Creative Content
+
+| Version | Prompt | What Changed | Why This Improved the Output |
+|----------|----------|----------|----------|
+| V1 | Create a tagline for an eco-friendly water bottle. | N/A | N/A |
+| V2 | Create five creative taglines for an eco-friendly water bottle brand. | Requested multiple taglines instead of one. | More options were generated, increasing creativity and choice. |
+| V3 | Create five short and catchy marketing taglines for a premium eco-friendly water bottle brand aimed at young professionals. | Added target audience, brand positioning, and style requirements. | The taglines became more focused, creative, and suitable for the intended market. |
+
+-------------------------------------------------------------------------------------------------------------------------------------
