@@ -4,7 +4,7 @@
 ### LLM Used: ChatGPT
 
 
-## Part 1: Prompt Design & Iteration
+# Part 1: Prompt Design & Iteration
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
@@ -189,3 +189,65 @@ Create taglines for a premium eco-friendly water bottle brand targeted at young 
 Adding role assignment improved the quality of the responses because the LLM adopted the perspective of a teacher and a marketing professional. The teacher role helped generate a simpler and more child-friendly explanation of neural networks. The copywriter role produced taglines that sounded more creative and market-oriented. Providing context about the audience and purpose made the outputs more relevant, focused, and effective for the intended use case.
 
 -------------------------------------------------------------------------------------------------------------------------------------
+
+# Part 2: Temperature & Parameter Control
+
+### 2.1 Temperature Experimentation
+
+**Task Chosen:** Creating a Short Story Opening
+
+#### Original Prompt
+
+Write a short story opening about a mysterious door discovered in an old library.
+
+---
+
+### Low Temperature (0.2)
+
+**Prompt Used:**
+
+Write a short story opening about a mysterious door discovered in an old library. Be precise and consistent.
+
+**Output:**
+
+Emma was arranging books in the oldest part of the library when she noticed a small wooden door hidden behind a bookshelf. She had never seen it before. Curious, she moved the books aside and looked at the door more closely.
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+### Medium Temperature (0.7)
+
+**Prompt Used:**
+
+Write a short story opening about a mysterious door discovered in an old library.
+
+**Output:**
+
+While looking for an old history book, Emma found a narrow wooden door hidden behind a dusty shelf. Strange symbols were carved into the wood, and it seemed like no one had opened it for years. She slowly reached out to touch the handle.
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+### High Temperature (1.2)
+
+**Prompt Used:**
+
+Write a short story opening about a mysterious door discovered in an old library. Be creative and explore diverse ideas.
+
+**Output:**
+
+The door appeared only at midnight, glowing softly between two shelves filled with forgotten books. Tiny golden lights danced across its surface, and strange whispers echoed through the library. When Emma touched the handle, the room suddenly became silent.
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+### Comparison Table
+
+| Temperature | Style | Creativity | Predictability |
+|------------|--------|------------|---------------|
+| Low (0.2) | Simple and direct | Low | High |
+| Medium (0.7) | Balanced and descriptive | Medium | Medium |
+| High (1.2) | Imaginative and creative | High | Low |
+
+### Observations
+
+The low-temperature response was simple and focused on basic facts. The medium-temperature response included more description and made the story more interesting. The high-temperature response was the most creative and included unusual details such as glowing lights and whispers. This experiment showed that higher temperature settings generally produce more imaginative outputs, while lower temperatures produce more predictable responses.
+
+----------------------------------------------------------------------------------------------------------------------------------
