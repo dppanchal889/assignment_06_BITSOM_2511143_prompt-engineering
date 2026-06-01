@@ -165,3 +165,27 @@ Create five short and catchy marketing taglines for a premium eco-friendly water
 | V3 | Create five short and catchy marketing taglines for a premium eco-friendly water bottle brand aimed at young professionals. | Added target audience, brand positioning, and style requirements. | The taglines became more focused, creative, and suitable for the intended market. |
 
 -------------------------------------------------------------------------------------------------------------------------------------
+
+### 1.3 Role and Context Analysis
+
+#### Scenario A: Technical Explanation
+
+**Role Assignment:**
+You are an expert elementary school teacher.
+
+**Context Setting:**
+Explain neural networks to a 10-year-old student using simple language and real-life examples.
+
+#### Scenario C: Creative Content
+
+**Role Assignment:**
+You are a professional marketing copywriter.
+
+**Context Setting:**
+Create taglines for a premium eco-friendly water bottle brand targeted at young professionals who care about sustainability.
+
+#### Analysis
+
+Adding role assignment improved the quality of the responses because the LLM adopted the perspective of a teacher and a marketing professional. The teacher role helped generate a simpler and more child-friendly explanation of neural networks. The copywriter role produced taglines that sounded more creative and market-oriented. Providing context about the audience and purpose made the outputs more relevant, focused, and effective for the intended use case.
+
+-------------------------------------------------------------------------------------------------------------------------------------
