@@ -1,7 +1,7 @@
 ## Prompt Engineering Portfolio
-# Name: Dipika Panchal
-# Date: 05/06/2026
-# LLM Used: ChatGPT
+### Name: Dipika Panchal
+### Date: 05/06/2026
+### LLM Used: ChatGPT
 
 
 ## Part 1: Prompt Design & Iteration
