@@ -188,7 +188,7 @@ Create taglines for a premium eco-friendly water bottle brand targeted at young 
 
 Adding role assignment improved the quality of the responses because the LLM adopted the perspective of a teacher and a marketing professional. The teacher role helped generate a simpler and more child-friendly explanation of neural networks. The copywriter role produced taglines that sounded more creative and market-oriented. Providing context about the audience and purpose made the outputs more relevant, focused, and effective for the intended use case.
 
--------------------------------------------------------------------------------------------------------------------------------------
+====================================================================================================================================
 
 # Part 2: Temperature & Parameter Control
 
@@ -200,7 +200,7 @@ Adding role assignment improved the quality of the responses because the LLM ado
 
 Write a short story opening about a mysterious door discovered in an old library.
 
----
+-------------------------------------------------------------------------------------------------------------------------------
 
 ### Low Temperature (0.2)
 
@@ -251,3 +251,9 @@ The door appeared only at midnight, glowing softly between two shelves filled wi
 The low-temperature response was simple and focused on basic facts. The medium-temperature response included more description and made the story more interesting. The high-temperature response was the most creative and included unusual details such as glowing lights and whispers. This experiment showed that higher temperature settings generally produce more imaginative outputs, while lower temperatures produce more predictable responses.
 
 ----------------------------------------------------------------------------------------------------------------------------------
+
+### 2.2 Analysis & Recommendations
+
+Low temperature is useful when accurate and consistent answers are needed. For example, I would use low temperature for writing technical documentation or answering factual questions because the responses are more focused and predictable. High temperature is useful when creativity is important. For example, I would use high temperature for writing stories or creating marketing slogans because it generates more unique and imaginative ideas. For my chosen task, the medium temperature worked best because it provided a good balance between creativity and clarity. The story was interesting and descriptive while still being easy to understand.
+
+===================================================================================================================================
