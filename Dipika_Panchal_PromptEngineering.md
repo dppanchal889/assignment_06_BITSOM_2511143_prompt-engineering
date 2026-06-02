@@ -38,7 +38,7 @@ Explain neural networks to a 10-year-old using a simple real-life example. Avoid
 
 A neural network is like teaching a child by showing examples. Imagine you show a child many pictures of cats and dogs. At first, the child may make mistakes. But after seeing many pictures, the child starts noticing things like ears, tails, and faces. A neural network learns in a similar way. It studies many examples, finds patterns, and then makes a guess.
 
-----------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------
 
 ### 1.1 Scenario B: Professional Email
 
@@ -131,9 +131,7 @@ Create five short and catchy marketing taglines for a premium eco-friendly water
 4. Designed to Refill. Built to Last.
 5. Clean Water. Cleaner Planet.
 
-======================================================================================================================================
-
-
+----------------------------------------------------------------------------------------------------------------------------
 ### 1.2 Iteration Documentation
 
 #### Scenario A: Technical Explanation
@@ -188,7 +186,7 @@ Create taglines for a premium eco-friendly water bottle brand targeted at young 
 
 Adding role assignment improved the quality of the responses because the LLM adopted the perspective of a teacher and a marketing professional. The teacher role helped generate a simpler and more child-friendly explanation of neural networks. The copywriter role produced taglines that sounded more creative and market-oriented. Providing context about the audience and purpose made the outputs more relevant, focused, and effective for the intended use case.
 
-====================================================================================================================================
+==========================================================================================================================
 
 # Part 2: Temperature & Parameter Control
 
@@ -256,7 +254,7 @@ The low-temperature response was simple and focused on basic facts. The medium-t
 
 Low temperature is useful when accurate and consistent answers are needed. For example, I would use low temperature for writing technical documentation or answering factual questions because the responses are more focused and predictable. High temperature is useful when creativity is important. For example, I would use high temperature for writing stories or creating marketing slogans because it generates more unique and imaginative ideas. For my chosen task, the medium temperature worked best because it provided a good balance between creativity and clarity. The story was interesting and descriptive while still being easy to understand.
 
-=================================================================================
+=============================================================================================
 
 # Part 3: Strategic Prompting Techniques
 
@@ -453,4 +451,4 @@ The revised prompt encourages a more balanced response by explicitly including p
 During this assignment, I observed several limitations of LLMs. First, LLMs can sometimes provide incorrect or fabricated information, which is known as hallucination. Second, they may struggle with complex reasoning tasks if the prompt is not clear enough. Third, LLMs can occasionally reflect biases that exist in their training data.
 To use LLMs responsibly, important information should always be verified using reliable sources, especially for academic, medical, legal, or financial topics. LLMs are not suitable for making critical decisions without human review because their outputs may contain errors. In my studies and work, I can use LLMs ethically as a tool for learning, brainstorming ideas, and improving writing, while ensuring that I review and validate the information before using it.
 
-===========================================================================
+========================================================================================
