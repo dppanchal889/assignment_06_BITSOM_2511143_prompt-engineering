@@ -453,4 +453,4 @@ The revised prompt encourages a more balanced response by explicitly including p
 During this assignment, I observed several limitations of LLMs. First, LLMs can sometimes provide incorrect or fabricated information, which is known as hallucination. Second, they may struggle with complex reasoning tasks if the prompt is not clear enough. Third, LLMs can occasionally reflect biases that exist in their training data.
 To use LLMs responsibly, important information should always be verified using reliable sources, especially for academic, medical, legal, or financial topics. LLMs are not suitable for making critical decisions without human review because their outputs may contain errors. In my studies and work, I can use LLMs ethically as a tool for learning, brainstorming ideas, and improving writing, while ensuring that I review and validate the information before using it.
 
-=============================================================================================================
+===========================================================================
