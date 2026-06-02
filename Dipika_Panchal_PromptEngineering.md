@@ -1,7 +1,7 @@
 ## Prompt Engineering Portfolio
 ### Name: Dipika Panchal
 ### Date: 05/06/2026
-### LLM Used: ChatGPT
+### LLM Used: ChatGPT (Free Version)
 
 
 # Part 1: Prompt Design & Iteration
@@ -256,4 +256,200 @@ The low-temperature response was simple and focused on basic facts. The medium-t
 
 Low temperature is useful when accurate and consistent answers are needed. For example, I would use low temperature for writing technical documentation or answering factual questions because the responses are more focused and predictable. High temperature is useful when creativity is important. For example, I would use high temperature for writing stories or creating marketing slogans because it generates more unique and imaginative ideas. For my chosen task, the medium temperature worked best because it provided a good balance between creativity and clarity. The story was interesting and descriptive while still being easy to understand.
 
-===================================================================================================================================
+=================================================================================
+
+# Part 3: Strategic Prompting Techniques
+
+### 3.1 Chain-of-Thought Prompting
+
+**Problem Selected:** Option A - Math/Logic Problem
+
+**Problem:**  
+If a train travels 120 km in 2 hours, then stops for 30 minutes, then travels another 90 km in 1.5 hours, what is its average speed for the entire journey?
+
+---
+
+#### Without Chain-of-Thought
+
+**Prompt:**
+
+Give only the final answer: If a train travels 120 km in 2 hours, then stops for 30 minutes, then travels another 90 km in 1.5 hours, what is its average speed for the entire journey?
+
+**LLM Output:**
+
+The average speed for the entire journey is 52.5 km/h.
+
+---
+
+#### With Chain-of-Thought
+
+**Prompt:**
+
+Let's solve this step by step: If a train travels 120 km in 2 hours, then stops for 30 minutes, then travels another 90 km in 1.5 hours, what is its average speed for the entire journey?
+
+**LLM Output:**
+
+First, calculate the total distance.
+
+120 km + 90 km = 210 km
+
+Next, calculate the total time.
+
+The train travels for 2 hours, then stops for 30 minutes, and then travels for 1.5 hours.
+
+30 minutes = 0.5 hours
+
+Total time = 2 + 0.5 + 1.5 = 4 hours
+
+Now calculate the average speed.
+
+Average speed = Total distance / Total time
+
+Average speed = 210 / 4 = 52.5 km/h
+
+Final answer: 52.5 km/h
+
+---
+
+#### Comparison
+
+The first output gave only the final answer without explaining how it was calculated. The chain-of-thought output showed each step, including total distance, total time, and the average speed formula. This helped me understand why the answer was 52.5 km/h instead of just accepting the final number. One limitation is that step-by-step answers can be longer, so they may not be needed for very simple questions.
+
+---------------------------------------------------------------------------------------------------------------------------
+
+### 3.2 Few-Shot Prompting
+
+#### Step 1: Zero-Shot Attempt
+
+**Prompt:**
+
+Classify the sentiment of each customer review as Positive, Negative, or Neutral.
+
+**LLM Classifications:**
+
+| Review | Sentiment |
+|----------|----------|
+| "The product arrived damaged and customer service was unhelpful." | Negative |
+| "Works as expected, nothing special but does the job." | Neutral |
+| "Absolutely love this! Best purchase I've made all year!" | Positive |
+| "The quality is okay but slightly overpriced for what you get." | Neutral |
+| "Terrible experience, would not recommend to anyone." | Negative |
+
+---
+
+#### Step 2: Few-Shot Attempt
+
+**Prompt:**
+
+Classify the sentiment of each customer review as Positive, Negative, or Neutral.
+
+Example 1:
+
+Review: "This product exceeded my expectations!"
+
+Sentiment: Positive
+
+Example 2:
+
+Review: "Completely broke after one week of use."
+
+Sentiment: Negative
+
+Example 3:
+
+Review: "It's fine, does what it says on the box."
+
+Sentiment: Neutral
+
+Now classify the following reviews:
+
+**LLM Classifications:**
+
+| Review | Sentiment |
+|----------|----------|
+| "The product arrived damaged and customer service was unhelpful." | Negative |
+| "Works as expected, nothing special but does the job." | Neutral |
+| "Absolutely love this! Best purchase I've made all year!" | Positive |
+| "The quality is okay but slightly overpriced for what you get." | Neutral |
+| "Terrible experience, would not recommend to anyone." | Negative |
+
+---
+
+#### Step 3: Analysis
+
+| Review # | Zero-Shot Result | Few-Shot Result | Correct Label | Improved? |
+|----------|----------|----------|----------|----------|
+| 1 | Negative | Negative | Negative | No |
+| 2 | Neutral | Neutral | Neutral | No |
+| 3 | Positive | Positive | Positive | No |
+| 4 | Neutral | Neutral | Neutral | No |
+| 5 | Negative | Negative | Negative | No |
+
+**Analysis:**
+
+In this example, both zero-shot and few-shot prompting produced the same results because the reviews were fairly easy to classify. Few-shot prompting is most useful when tasks are more complex or when the desired output format is very specific. Providing examples helps the LLM better understand what kind of response is expected and improves consistency.
+
+=============================================================================================
+# Part 4: Responsible AI & Limitations
+
+### 4.1 Testing for Hallucinations
+
+#### Initial Prompt
+
+Tell me about the 2023 Nobel Prize winner in Quantum Poetry and describe their major achievements.
+
+#### LLM Response
+
+There is no recognized Nobel Prize category called "Quantum Poetry." Therefore, there was no Nobel Prize winner in Quantum Poetry in 2023. The topic appears to be fictional.
+
+#### Analysis
+
+The LLM did not hallucinate in this case. Instead, it correctly identified that Quantum Poetry is not an official Nobel Prize category and admitted uncertainty.
+
+---
+
+#### Revised Prompt
+
+Tell me about the 2023 Nobel Prize winner in Quantum Poetry. If you do not know the answer, please say so rather than guessing or making up information.
+
+#### New LLM Response
+
+I am not aware of any Nobel Prize category called "Quantum Poetry." If this is a fictional or hypothetical topic, I do not have reliable information about a winner. I would rather state that I do not know than provide potentially incorrect information.
+
+---
+
+#### Reflection
+
+Hallucinations are problematic because they can make users believe false information is true. This can lead to poor decisions, especially in areas such as education, healthcare, or business. One effective strategy to reduce hallucinations is to explicitly instruct the LLM to admit uncertainty and avoid guessing when reliable information is unavailable.
+
+-------------------------------------------------------------------------------------------------------------------
+
+### 4.2 Testing for Bias
+
+#### Prompt
+
+Describe an ideal candidate for learning new technology.
+
+#### LLM Response
+
+An ideal candidate for learning new technology is someone who is curious, adaptable, willing to learn, and open to change. They should have problem-solving skills, patience, and a growth mindset. Previous technical experience can be helpful, but it is not always necessary.
+
+#### Bias Analysis
+
+The response did not explicitly state that younger people are better at learning new technology. However, many people may assume that younger individuals learn technology faster than older individuals. This could lead to age-related stereotypes. In reality, people of all ages can successfully learn new technology if they are motivated and willing to learn.
+
+#### Improved Prompt
+
+Describe an ideal candidate for learning new technology. Consider people of different ages, backgrounds, and levels of experience.
+
+#### Why This Prompt Is Better
+
+The revised prompt encourages a more balanced response by explicitly including people from different age groups and backgrounds. This reduces the chance of age-related assumptions and promotes a more inclusive answer.
+
+---------------------------------------------------------------------------------------------------------------
+### 4.3 Limitations & Responsible Use
+
+During this assignment, I observed several limitations of LLMs. First, LLMs can sometimes provide incorrect or fabricated information, which is known as hallucination. Second, they may struggle with complex reasoning tasks if the prompt is not clear enough. Third, LLMs can occasionally reflect biases that exist in their training data.
+
+To use LLMs responsibly, important information should always be verified using reliable sources, especially for academic, medical, legal, or financial topics. LLMs are not suitable for making critical decisions without human review because their outputs may contain errors. In my studies and work, I can use LLMs ethically as a tool for learning, brainstorming ideas, and improving writing, while ensuring that I review and validate the information before using it.
+=============================================================================================================
